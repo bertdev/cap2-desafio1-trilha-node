@@ -15,8 +15,7 @@ class CreateUserUseCase {
       throw new Error("Email already in use");
     }
 
-    const newUser = this.usersRepository.create({ name, email });
-    return newUser;
+    return this.usersRepository.create({ name, email });
   }
 }
 
