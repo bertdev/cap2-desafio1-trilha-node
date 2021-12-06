@@ -8,6 +8,12 @@
       "email": "herbertmatos10@hotmail.com"
     }
   },
+  "tags": [
+    {
+      "name": "Users",
+      "description": "Gerenciamento de usuarios"
+    }
+  ],
   "paths": {
     "/users": {
       "post": {
